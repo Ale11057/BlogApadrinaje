@@ -1,8 +1,6 @@
 "use client";
 import Image from "next/image";
-const UnoptimizedImage = (props) => {
-  return <Image {...props} unoptimized />
-}
+
 
 import Splash from "./components/splash.js";
 export default function Home() {
@@ -21,7 +19,7 @@ export default function Home() {
         </li>
       </ul>
       <div className="header">
-        <UnoptimizedImage src="./Banner.png" alt="chi" width={500}
+        <Image src="./Banner.png" alt="chi" width={500}
       height={500} className="landing"/>
         <h1 className="Title">BIENVENID@ AL DEPARTAMENTO DE INFORMATICA</h1>
         <p>
@@ -42,15 +40,15 @@ export default function Home() {
           <div>
             <div className="grid">
               <div className="card">
-              <UnoptimizedImage src="./1.png" width={250}
+              <Image src="./1.png" width={250}
       height={300} alt="chi" className="ima"/>
               </div>
               <div className="card">
-              <UnoptimizedImage src="./2.png" width={250}
+              <Image src="./2.png" width={250}
       height={300} alt="chi" className="ima"/>
               </div>
               <div className="card">
-              <UnoptimizedImage src="./3.png" width={250}
+              <Image src="./3.png" width={250}
       height={300} alt="chi" className="ima"/>
               </div>
             </div>
@@ -66,11 +64,11 @@ export default function Home() {
             <br></br>
             <div className="grid">
               <div className="banner-container">
-                <UnoptimizedImage src="./Landing.jpg" width={500}
+                <Image src="./Landing.jpg" width={500}
       height={500} alt="chi" className="banner card"/>
               </div>
               <div className="banner2-container">
-                <UnoptimizedImage
+                <Image
                   src="./Banner2.png"
                   alt="chi" 
                   width={500}
@@ -84,7 +82,7 @@ export default function Home() {
           <div className="content2">
               <br></br>
               <div className="logo-container">
-                <UnoptimizedImage src="./logo.png" width={500}
+                <Image src="./logo.png" width={500}
       height={500} alt="chi" className="info"/>
               </div>
               <h1>

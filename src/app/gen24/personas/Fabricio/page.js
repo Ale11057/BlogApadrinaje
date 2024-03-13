@@ -1,8 +1,6 @@
 "use client";
 import Image from "next/image";
-const UnoptimizedImage = (props) => {
-  return <Image {...props} unoptimized />
-}
+
 
 
 export default function Home() {
@@ -15,7 +13,7 @@ export default function Home() {
           <span className="pp"> Gen 24'</span>
         </h1>
         <div className="cont">
-          <UnoptimizedImage width={500}
+          <Image width={500}
       height={500}
             src="./Fabricio.png"
             alt="chi"
@@ -57,7 +55,7 @@ export default function Home() {
                   Volver
                 </a>
               </div>
-              <UnoptimizedImage width={500}
+              <Image width={500}
       height={500}
                 src="./aguila.jpg"
                 alt="chi"
