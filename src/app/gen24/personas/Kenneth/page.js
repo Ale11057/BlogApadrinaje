@@ -9,7 +9,7 @@ export default function Home() {
           <span className="pp"> Gen 24'</span>
         </h1>
         <div className="cont">
-          <img src="/Kenneth.png" alt="chi" className="card pfp"></img>
+          <img src="./Kenneth.png" alt="chi" className="card pfp"></img>
           <div className="grid2">
             <h1>Kenneth Ramírez</h1>
             <h3 className="titulos">Descripción:</h3>
@@ -29,7 +29,7 @@ export default function Home() {
             <p>Programación</p>
             <a href="/gen24" className="bak">Volver</a>
             </div>
-            <img src="/Lechuza.jpg" alt="chi" className="animal"></img>
+            <img src="./Lechuza.jpg" alt="chi" className="animal"></img>
             </div>
           </div>
         </div>

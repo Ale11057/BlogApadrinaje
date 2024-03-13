@@ -9,7 +9,7 @@ export default function Home() {
           <span className="pp"> Gen 24'</span>
         </h1>
         <div className="cont">
-          <img src="/chan.png" alt="chi" className="card pfp"></img>
+          <img src="./chan.png" alt="chi" className="card pfp"></img>
           <div className="grid2">
             <h1>Jeremy Chan</h1>
             <h3 className="titulos">Descripción:</h3>
@@ -31,7 +31,7 @@ export default function Home() {
             <p className="links"><a href="https://www.instagram.com/jeremy_chan_rojas">@jeremy_chan_rojas</a></p>
             <a href="/gen24" className="bak">Volver</a>
             </div>
-            <img src="/mono.jpg" alt="chi" className="animal"></img>
+            <img src="./mono.jpg" alt="chi" className="animal"></img>
             </div>
           </div>
         </div>

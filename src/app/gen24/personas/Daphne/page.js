@@ -9,7 +9,7 @@ export default function Home() {
           <span className="pp"> Gen 24'</span>
         </h1>
         <div className="cont">
-          <img src="/Traña.png" alt="chi" className="card pfp"></img>
+          <img src="./Traña.png" alt="chi" className="card pfp"></img>
           <div className="grid2">
             <h1>Daphne Traña</h1>
             <h3 className="titulos">Descripción:</h3>
@@ -30,7 +30,7 @@ export default function Home() {
             <p className="links"><a href="https://www.instagram.com/http_.daphne">@http_.daphne</a></p>
             <a href="/gen24" className="bak">Volver</a>
             </div>
-            <img src="/tballena.jpg" alt="chi" className="animal"></img>
+            <img src="./tballena.jpg" alt="chi" className="animal"></img>
             </div>
           </div>
         </div>

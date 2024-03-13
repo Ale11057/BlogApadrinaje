@@ -9,8 +9,8 @@ export default function Home() {
           <span className="pp"> Gen 24'</span>
         </h1>
         <div className="cont">
-        <img src="/arg.png" className="arg"></img>
-          <img src="/Niko.png" alt="chi" className="card pfp"></img>
+        <img src="./arg.png" className="arg"></img>
+          <img src="./Niko.png" alt="chi" className="card pfp"></img>
           <div className="grid2">
             <h1>Nikolas Sánchez</h1>
             <h3 className="titulos">Descripción:</h3>
@@ -46,7 +46,7 @@ export default function Home() {
                   Volver
                 </a>
               </div>
-              <img src="/perro.png" alt="chi" className="animal"></img>
+              <img src="./perro.png" alt="chi" className="animal"></img>
             </div>
           </div>
         </div>

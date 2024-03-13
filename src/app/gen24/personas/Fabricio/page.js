@@ -10,7 +10,7 @@ export default function Home() {
         </h1>
         <div className="cont">
           <img
-            src="/Fabricio.png"
+            src="./Fabricio.png"
             alt="chi"
             className="card pfp"
           ></img>
@@ -51,7 +51,7 @@ export default function Home() {
                 </a>
               </div>
               <img
-                src="/aguila.jpg"
+                src="./aguila.jpg"
                 alt="chi"
                 className="animal"
               ></img>

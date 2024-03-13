@@ -18,7 +18,7 @@ export default function Home() {
         </li>
       </ul>
       <div className="header">
-        <img src="/Banner.png" alt="chi" className="landing"></img>
+        <img src="./Banner.png" alt="chi" className="landing"></img>
         <h1 className="Title">BIENVENID@ AL DEPARTAMENTO DE INFORMATICA</h1>
         <p>
           ¡En el departamento de informática, formamos una familia donde la
@@ -43,7 +43,7 @@ export default function Home() {
                   width={210}
                   height={250}
                   quality={100}
-                  src="/1.png"
+                  src="./1.png"
                   className="ima"
                 />
               </div>
@@ -53,7 +53,7 @@ export default function Home() {
                   width={210}
                   height={250}
                   quality={100}
-                  src="/2.png"
+                  src="./2.png"
                   className="ima"
                 />
               </div>
@@ -63,7 +63,7 @@ export default function Home() {
                   width={210}
                   height={250}
                   quality={100}
-                  src="/3.png"
+                  src="./3.png"
                   className="ima"
                 />
               </div>
@@ -80,11 +80,11 @@ export default function Home() {
             <br></br>
             <div className="grid">
               <div className="banner-container">
-                <img src="/Landing.jpg" alt="chi" className="banner card"></img>
+                <img src="./Landing.jpg" alt="chi" className="banner card"></img>
               </div>
               <div className="banner2-container">
                 <img
-                  src="/Banner2.png"
+                  src="./Banner2.png"
                   alt="chi"
                   className="banner card b2"
                 ></img>
@@ -95,7 +95,7 @@ export default function Home() {
           <div className="content2">
               <br></br>
               <div className="logo-container">
-                <img src="/logo.png" alt="chi" className="info"></img>
+                <img src="./logo.png" alt="chi" className="info"></img>
               </div>
               <h1>
                 ¿Estás preparad@ para conocer a quiénes podrían ser tus
