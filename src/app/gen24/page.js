@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Card from "./gen.js";
 export default function Home() {
   return (

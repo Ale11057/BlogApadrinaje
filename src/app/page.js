@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Splash from "./components/splash.js";
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
         </li>
       </ul>
       <div className="header">
-        <img src="./Banner.png" alt="chi" className="landing"></img>
+        <Image src="./Banner.png" alt="chi" className="landing"/>
         <h1 className="Title">BIENVENID@ AL DEPARTAMENTO DE INFORMATICA</h1>
         <p>
           ¡En el departamento de informática, formamos una familia donde la
@@ -36,13 +37,13 @@ export default function Home() {
           <div>
             <div className="grid">
               <div className="card">
-              <img src="./1.png" alt="chi" className="ima"></img>
+              <Image src="./1.png" alt="chi" className="ima"/>
               </div>
               <div className="card">
-              <img src="./2.png" alt="chi" className="ima"></img>
+              <Image src="./2.png" alt="chi" className="ima"/>
               </div>
               <div className="card">
-              <img src="./3.png" alt="chi" className="ima"></img>
+              <Image src="./3.png" alt="chi" className="ima"/>
               </div>
             </div>
           </div>
@@ -57,14 +58,14 @@ export default function Home() {
             <br></br>
             <div className="grid">
               <div className="banner-container">
-                <img src="./Landing.jpg" alt="chi" className="banner card"></img>
+                <Image src="./Landing.jpg" alt="chi" className="banner card"/>
               </div>
               <div className="banner2-container">
-                <img
+                <Image
                   src="./Banner2.png"
                   alt="chi"
                   className="banner card b2"
-                ></img>
+                />
               </div>
             </div>
           </div>
@@ -72,7 +73,7 @@ export default function Home() {
           <div className="content2">
               <br></br>
               <div className="logo-container">
-                <img src="./logo.png" alt="chi" className="info"></img>
+                <Image src="./logo.png" alt="chi" className="info"/>
               </div>
               <h1>
                 ¿Estás preparad@ para conocer a quiénes podrían ser tus

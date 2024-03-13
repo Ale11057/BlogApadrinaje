@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 export default function Home() {
   return (
     <>
@@ -9,7 +10,7 @@ export default function Home() {
           <span className="pp"> Gen 24'</span>
         </h1>
         <div className="cont">
-          <img src="./Carlos.png" alt="chi" className="card pfp"></img>
+          <Image src="./Carlos.png" alt="chi" className="card pfp"/>
           <div className="grid2">
             <h1>Carlos Barboza</h1>
             <h3 className="titulos">Descripción:</h3>
@@ -45,11 +46,11 @@ export default function Home() {
                   Volver
                 </a>
               </div>
-              <img
+              <Image
                 src="./dog.jpg"
                 alt="chi"
                 className="animal"
-              ></img>
+              />
             </div>
           </div>
         </div>

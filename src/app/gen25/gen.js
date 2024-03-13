@@ -5,7 +5,7 @@ import React from 'react';
 const Card = ({ imgSrc, name,name2, description, href }) => {
   return (
     <div className="card-gen" href={href}>
-      <img alt={name} src={imgSrc} className="imas"></img>
+      <Image alt={name} src={imgSrc} className="imas"/>
       <h2>{name}</h2>
       <p>{description}</p><a href={href} className="leer-mas">Leer más...</a>
       <div className='chisus'></div>
