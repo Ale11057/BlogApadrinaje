@@ -1,7 +1,5 @@
 "use client";
-import Image from "next/image";
 import Splash from "./components/splash.js";
-import { Container } from "postcss";
 export default function Home() {
   return (
     <>
