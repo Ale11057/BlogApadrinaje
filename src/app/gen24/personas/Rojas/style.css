@@ -1,0 +1,107 @@
+body {
+  background: whitesmoke;
+}
+
+.pp{
+  font-size: 5rem;
+  font-weight: 800;
+  text-shadow: 0 0 1px #ffffff85, 0 0 2px #ff404085, 0 0 4px #ff111185,
+  0 0 8px #ffffff85;
+}
+
+
+.content>h1{
+  text-align: center !important;
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: white;
+  margin-top: 80vh;
+  margin-bottom: 6vh;
+  margin-left: 5%;
+  padding-right: 20vw;
+}
+
+.content {
+  text-align: inherit !important;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: none;
+  text-align: end;
+  padding-top: 2%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 0 !important;
+}
+
+.cont{
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* La primera columna ocupará 1 parte y la segunda 2 partes */
+  gap: 10px; 
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  background-color: #fff; 
+}
+.an{
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  background-color: #fff; 
+  margin-bottom: 10vh;
+}
+
+.an p{
+  padding-left: 4% !important;
+}
+
+.pfp{
+  position: relative;
+  bottom: 30vh;
+  width: 100%;
+  height: auto;
+}
+.animal{
+  width: 100%;
+  height: auto;
+  padding: 0;
+  text-decoration: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.grid2{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.titulos{
+  margin-bottom: 2%;
+}
+
+.cont p{
+  padding-left: 2%;
+  font-weight: 500;
+}
+/*AQUI VA EL COLOR*//*AQUI VA EL COLOR*//*AQUI VA EL COLOR*/
+.color{
+  /*AQUI VA EL COLOR*//*AQUI VA EL COLOR*//*AQUI VA EL COLOR*/
+  /*AQUI VA EL COLOR*/color:black !important; /*AQUI VA EL COLOR*/
+  /*AQUI VA EL COLOR*//*AQUI VA EL COLOR*//*AQUI VA EL COLOR*/
+  font-weight: bold !important;
+}
+/*AQUI VA EL COLOR*//*AQUI VA EL COLOR*//*AQUI VA EL COLOR*/
+.links a{
+  color: black !important;
+}
+
+.bak{
+  text-align: end;
+  font-size: x-large;
+  font-weight: 700;
+  color: black;
+}
+
+.bak{
+  position: relative;
+  top: 5vh;
+}

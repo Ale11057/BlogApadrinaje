@@ -1,0 +1,140 @@
+body {
+  background: whitesmoke;
+}
+
+.gen{
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.content>h1{
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: white;
+  margin-top: 6%;
+  margin-bottom: 10%;
+}
+
+.grid-gen {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 60px;
+  background-color: #fff; /* Color de fondo del grid-gen */
+}
+
+.content {
+  background: none;
+  text-align: center;
+  margin-bottom: 25%;
+  padding-top: 2%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.content p{
+margin-bottom: 0 !important;
+}
+
+.card-gen {
+  position: relative;
+  bottom: 10vh;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+  width: 20%;
+  height: 60vh;
+  padding-left: 2%;
+  padding-top: 1%;
+  padding-right: 2%;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: inset -2px 2px 11px rgba(43, 43, 43, 0.221), -6px 6px 17px #57575763;
+  transition: ease-in-out 0.2s;
+  box-shadow: 0 0 2px rgba(211, 211, 211, 0.3), 0 0 8px rgba(0, 0, 0, 0.2), 0 0 16px rgba(0, 0, 0, 0.2),
+    0 0 32px rgba(0, 0, 0, 0.2);
+}
+
+.card-gen:hover{
+  transition: ease-in-out 0.2s;
+  width: 22%;
+  height: 62vh;
+  padding-left: 3%;
+  padding-top: 1%;
+  padding-right: 3%;
+}
+.card-gen:hover>.imas{
+  transition: ease-in-out 0.2s;
+  width: 90%;
+  margin-bottom: 0;
+}
+.card-gen p{
+  height: 20vh;
+  overflow-y: hidden;
+}
+
+.card-gen h2 {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.imas {
+  z-index: 2;
+  width: 80%;
+  border-radius: 50%;
+  margin-bottom: 5%;
+  transition: ease-in-out 0.2s;
+}
+
+.leer-mas {
+  z-index: 10;
+  padding-right: 10%;
+  border-top: 5px white solid !important;
+  border-left: 5px white solid !important;
+  width: max-content;
+  height: max-content;
+  background-color: #ffffff;
+  color: black;
+  font-weight: bold; /* Cambiado de 500px a bold */
+  transition: ease-in-out 0.2s;
+}
+
+.chi{
+  z-index: -1;
+  background-image: url("/tmbnail.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.chisus{
+  background-blend-mode: overlay;
+  position: absolute;
+  top: 0;
+  background-color: rgb(211, 16, 55);
+  box-shadow: inset -2px 2px 11px rgba(43, 43, 43, 0.221), -6px 6px 17px #57575763;
+  width: 100%;
+  height: 20vh;
+}
+
+.grid-cont{
+  width: 100%;
+  height: 100%;
+  background-color: #fff; 
+}
+
+.bak{
+  text-align: center;
+  font-size: x-large;
+  font-weight: 700;
+  color: black;
+  width: 100%;
+  background-color: #fff;
+}
