@@ -1,5 +1,9 @@
 "use client";
 import Image from "next/image";
+const UnoptimizedImage = (props) => {
+  return <Image {...props} unoptimized />
+}
+
 import Splash from "./components/splash.js";
 export default function Home() {
   return (
@@ -17,7 +21,8 @@ export default function Home() {
         </li>
       </ul>
       <div className="header">
-        <Image src="./Banner.png" alt="chi" className="landing"/>
+        <UnoptimizedImage src="./Banner.png" alt="chi" width={500}
+      height={500} className="landing"/>
         <h1 className="Title">BIENVENID@ AL DEPARTAMENTO DE INFORMATICA</h1>
         <p>
           ¡En el departamento de informática, formamos una familia donde la
@@ -37,13 +42,16 @@ export default function Home() {
           <div>
             <div className="grid">
               <div className="card">
-              <Image src="./1.png" alt="chi" className="ima"/>
+              <UnoptimizedImage src="./1.png" width={250}
+      height={300} alt="chi" className="ima"/>
               </div>
               <div className="card">
-              <Image src="./2.png" alt="chi" className="ima"/>
+              <UnoptimizedImage src="./2.png" width={250}
+      height={300} alt="chi" className="ima"/>
               </div>
               <div className="card">
-              <Image src="./3.png" alt="chi" className="ima"/>
+              <UnoptimizedImage src="./3.png" width={250}
+      height={300} alt="chi" className="ima"/>
               </div>
             </div>
           </div>
@@ -58,12 +66,15 @@ export default function Home() {
             <br></br>
             <div className="grid">
               <div className="banner-container">
-                <Image src="./Landing.jpg" alt="chi" className="banner card"/>
+                <UnoptimizedImage src="./Landing.jpg" width={500}
+      height={500} alt="chi" className="banner card"/>
               </div>
               <div className="banner2-container">
-                <Image
+                <UnoptimizedImage
                   src="./Banner2.png"
-                  alt="chi"
+                  alt="chi" 
+                  width={500}
+      height={500}
                   className="banner card b2"
                 />
               </div>
@@ -73,7 +84,8 @@ export default function Home() {
           <div className="content2">
               <br></br>
               <div className="logo-container">
-                <Image src="./logo.png" alt="chi" className="info"/>
+                <UnoptimizedImage src="./logo.png" width={500}
+      height={500} alt="chi" className="info"/>
               </div>
               <h1>
                 ¿Estás preparad@ para conocer a quiénes podrían ser tus

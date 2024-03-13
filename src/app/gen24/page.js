@@ -1,5 +1,9 @@
 "use client";
 import Image from "next/image";
+const UnoptimizedImage = (props) => {
+  return <Image {...props} unoptimized />
+}
+
 import Card from "./gen.js";
 export default function Home() {
   return (
