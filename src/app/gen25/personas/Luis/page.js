@@ -6,7 +6,7 @@ export default function Home() {
       <div className="content">
         <a className="pp"> -D </a>
         <h1>
-          <span className="pp"> Gen 24'</span>
+          <span className="pp"> Gen 25'</span>
         </h1>
         <div className="cont">
           <img src="./Luis.png" alt="chi" className="card pfp"></img>

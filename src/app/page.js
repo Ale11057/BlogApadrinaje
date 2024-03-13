@@ -36,13 +36,13 @@ export default function Home() {
           <div>
             <div className="grid">
               <div className="card">
-              <img src="./1.png" alt="" className="ima"></img>
+              <img src="./1.png" alt="chi" className="ima"></img>
               </div>
               <div className="card">
-              <img src="./2.png" alt="" className="ima"></img>
+              <img src="./2.png" alt="chi" className="ima"></img>
               </div>
               <div className="card">
-                <img src="./3.png" alt="" className="ima"></img>
+              <img src="./3.png" alt="chi" className="ima"></img>
               </div>
             </div>
           </div>

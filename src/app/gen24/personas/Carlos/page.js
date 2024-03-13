@@ -46,7 +46,7 @@ export default function Home() {
                 </a>
               </div>
               <img
-                src="/dog.jpg"
+                src="./dog.jpg"
                 alt="chi"
                 className="animal"
               ></img>
