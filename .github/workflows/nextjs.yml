@@ -75,12 +75,16 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
-      - name: Check if _site directory exists
+      
+      - name: Export static files
+        run: ${{ steps.detect-package-manager.outputs.runner }} next export
+      
+      - name: Fix file permissions
         run: |
-          if [ ! -d "_site" ]; then
-            echo "::error title=Error::_site directory does not exist. Please check the build command."
-            exit 1
-          fi
+          chmod -c -R +rX "_site/" | while read line; do
+            echo "::warning title=Invalid file permissions automatically fixed::$line"
+          done
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
