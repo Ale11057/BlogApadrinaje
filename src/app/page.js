@@ -38,34 +38,13 @@ export default function Home() {
           <div>
             <div className="grid">
               <div className="card">
-                <Image
-                  alt="test"
-                  width={210}
-                  height={250}
-                  quality={100}
-                  src="./1.png"
-                  className="ima"
-                />
+              <img src="./1.png" alt="" className="ima"></img>
               </div>
               <div className="card">
-                <Image
-                  alt="test"
-                  width={210}
-                  height={250}
-                  quality={100}
-                  src="./2.png"
-                  className="ima"
-                />
+              <img src="./2.png" alt="" className="ima"></img>
               </div>
               <div className="card">
-                <Image
-                  alt="test"
-                  width={210}
-                  height={250}
-                  quality={100}
-                  src="./3.png"
-                  className="ima"
-                />
+                <img src="./3.png" alt="" className="ima"></img>
               </div>
             </div>
           </div>

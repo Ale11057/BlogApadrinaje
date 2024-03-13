@@ -9,7 +9,7 @@ export default function Home() {
           <span className="pp"> Gen 25'</span>
         </h1>
         <div className="cont">
-          <img src="/David.png" alt="chi" className="card pfp"></img>
+          <img src="./David.png" alt="chi" className="card pfp"></img>
           <div className="grid2">
             <h1>Josué David Calderon </h1>
             <h3 className="titulos">Descripción:</h3>
@@ -30,7 +30,7 @@ export default function Home() {
             <p className="links"><a href="https://www.instagram.com/urenas.js">@urenas.js</a></p>
             <a href="/gen25" className="bak">Volver</a>
             </div>
-            <img src="/Husky.jpg" alt="chi" className="animal"></img>
+            <img src="./Husky.jpg" alt="chi" className="animal"></img>
             </div>
           </div>
         </div>
