@@ -14,15 +14,7 @@ export default function Home() {
           <div className="grid2">
             <h1>Megan Cuenca</h1>
             <h3 className="titulos">Descripción:</h3>
-            <p>
-              Soy Megan, me gusta mucho todo lo que tenga que ver con tecnología
-              e informática por eso entre a dw, me encanta el diseño, leer,
-              pintar, escribir, la poesía, me considero muy creativa. También me
-              gusta todo lo que tenga que ver con soporte TI y desarmar e
-              examinar las computadoras. Me gustaría estudiar algo relacionado
-              con el diseño, soporte TI o bases de datos y estar en un trabajo
-              que disfrute.
-            </p>
+            <p>Megan es una persona que disfruta de la naturaleza y la fotografía. Ella utiliza su cámara para capturar imágenes de paisajes y animales.</p>
             <br></br>
             <div className="an">
               <div>
