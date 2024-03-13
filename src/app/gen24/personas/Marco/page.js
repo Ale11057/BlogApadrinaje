@@ -10,7 +10,7 @@ export default function Home() {
           <span className="pp"> Gen 24'</span>
         </h1>
         <div className="cont">
-          <Image src="./crown.png" className="corona"/>
+          <Image src="./crown.png" alt="chi" className="corona"/>
           <Image src="./Marco.png" alt="chi" className="card pfp"/>
           <div className="grid2">
             <h1>Marco Alejandro Garro Chavarría</h1>

@@ -1,5 +1,5 @@
 // components/Card.js
-
+import Image from "next/image";
 import React from 'react';
 
 const Card = ({ imgSrc, name,name2, description, href }) => {
